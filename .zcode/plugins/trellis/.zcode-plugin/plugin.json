@@ -1,0 +1,9 @@
+{
+  "name": "trellis",
+  "version": "0.6.17",
+  "description": "Trellis workflow integration for ZCode: workflow skills, slash commands, subagents and session hooks.",
+  "author": { "name": "Trellis" },
+  "skills": "skills",
+  "commands": "commands",
+  "agents": "agents"
+}
