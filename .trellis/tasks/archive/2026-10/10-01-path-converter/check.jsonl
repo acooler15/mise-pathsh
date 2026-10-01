@@ -1,0 +1,5 @@
+{"file": ".trellis/spec/go/path-conversion.md", "reason": "核对实现是否符合转换原则（保守/无损/幂等）"}
+{"file": ".trellis/spec/go/quality-guidelines.md", "reason": "质量门槛：gofmt/vet/test 与 fixture 断言"}
+{"file": ".trellis/spec/go/error-handling.md", "reason": "核对退出码与错误上下文透传"}
+{"file": ".trellis/spec/go/logging-guidelines.md", "reason": "核对 stdout 纪律与静默成功"}
+{"file": ".trellis/spec/guides/code-reuse-thinking-guide.md", "reason": "评审复用与规则表单一来源"}

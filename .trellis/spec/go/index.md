@@ -46,9 +46,10 @@ mise install && mise exec -- go build ./...
 
 ---
 
-## 现状说明（greenfield）
+## 现状说明（2026-10-01 首个实现任务后）
 
-仓库目前尚无 Go 源码，只有 `mise.toml`（工具链声明）与
-`sample-activate.sh`（`mise activate --shell bash` 在本机的真实输出样本，
-是转换逻辑的第一手输入素材与测试 fixture）。规范中标注"待实现任务定稿"
-的条目，在首个实现任务的设计评审时固化，固化后回填本目录对应文件。
+仓库已有可用实现：`main.go`（根，stdin/文件 → stdout 过滤器）+
+`internal/converter/`（rules / locate / converter 三层，规则表见
+[path-conversion.md](./path-conversion.md)）。测试 fixture 在 `testdata/`
+（`sample-activate.sh` 与 hook-env 样本的只读副本，原件禁止修改）。
+规范中如仍有"待定稿"字样的陈旧条目，以后续任务的设计评审为准更新。

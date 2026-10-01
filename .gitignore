@@ -1,0 +1,7 @@
+# build artifacts
+*.exe
+*.test
+
+# python caches
+__pycache__/
+*.pyc

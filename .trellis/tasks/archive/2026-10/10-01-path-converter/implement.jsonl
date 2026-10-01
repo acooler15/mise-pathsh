@@ -1,0 +1,6 @@
+{"file": ".trellis/spec/go/path-conversion.md", "reason": "核心域约定：转换范围、样本形态、保守/无损原则"}
+{"file": ".trellis/spec/go/toolchain-guidelines.md", "reason": "PATH 优先、mise 兜底的命令执行顺序"}
+{"file": ".trellis/spec/go/directory-structure.md", "reason": "Go 目录布局与 sample-activate.sh 只读约定"}
+{"file": ".trellis/spec/go/error-handling.md", "reason": "错误包装与退出码 0/1/2 约定"}
+{"file": ".trellis/spec/go/logging-guidelines.md", "reason": "stdout/stderr 分工与静默成功"}
+{"file": ".trellis/spec/go/quality-guidelines.md", "reason": "检查命令与测试断言要求"}
